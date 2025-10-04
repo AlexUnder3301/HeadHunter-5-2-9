@@ -127,14 +127,7 @@ export const VacanciesPage = () => {
           </div>
           {isLoading
             ? mockData.map((item) => {
-                return (
-                  <VacancyCard
-                    key={item.id}
-                    city={city}
-                    vacancy={item}
-                    isLoading
-                  />
-                );
+                return <VacancyCard key={item.id} vacancy={item} isLoading />;
               })
             : vacancies.map((item) => {
                 return <VacancyCard key={item.id} city={city} vacancy={item} />;

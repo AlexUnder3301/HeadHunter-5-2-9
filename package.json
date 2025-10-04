@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/vacancies",
+  "homepage": "https://yourusername.github.io/vacancies/moscow",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

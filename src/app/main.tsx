@@ -39,13 +39,13 @@ const theme = createTheme({
 });
 
 createRoot(document.getElementById("root")!).render(
-  // <StrictMode>
-  <HashRouter>
-    <Provider store={store}>
-      <MantineProvider theme={theme}>
-        <App />
-      </MantineProvider>
-    </Provider>
-  </HashRouter>
-  // </StrictMode>
+  <StrictMode>
+    <HashRouter>
+      <Provider store={store}>
+        <MantineProvider theme={theme}>
+          <App />
+        </MantineProvider>
+      </Provider>
+    </HashRouter>
+  </StrictMode>
 );

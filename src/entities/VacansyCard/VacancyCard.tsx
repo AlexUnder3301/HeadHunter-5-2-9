@@ -8,7 +8,7 @@ interface VacancyCardType {
   vacancy: VacancyType;
   isLoading?: boolean;
   isOpened?: boolean;
-  city: string;
+  city?: string;
 }
 
 const VacancyCard = ({
